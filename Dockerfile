@@ -7,3 +7,5 @@ COPY bootstrap.sh bootstrap.sh
 RUN chmod +x bootstrap.sh
 
 CMD [ "/bin/bash", "bootstrap.sh" ]
+
+EXPOSE 3012:3012
