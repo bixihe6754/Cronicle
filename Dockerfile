@@ -4,7 +4,7 @@ WORKDIR /opt/cronicle
 
 COPY bootstrap.sh bootstrap.sh
 
-RUN apk update && apk add bash && apk add curl && apk add gzip
+RUN apk update && apk add bash && apk add curl && apk add gzip && apk add jq
 
 RUN chmod +x bootstrap.sh
 
