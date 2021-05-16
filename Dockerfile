@@ -4,6 +4,8 @@ WORKDIR /opt/cronicle
 
 COPY bootstrap.sh bootstrap.sh
 
+RUN apk update && apk add bash
+
 RUN chmod +x bootstrap.sh
 
 CMD [ "/bin/bash", "bootstrap.sh" ]
