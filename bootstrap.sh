@@ -4,9 +4,9 @@
 
 rm -f *.md && rm -f *.json && rm -rf bin && rm -rf htdocs && rm -rf lib && rm -rf sample_conf && rm -rf node_modules && rm -rf conf && rm -rf logs && rm -rf queue
 
-REDIS_HOST=us1-close-sailfish-33510.upstash.io
-REDIS_PORT=33510
-REDIS_PASSWORD=69e6e0a047c24d2bae6b0ec16890a071
+REDIS_HOST=us1-fun-dodo-33546.upstash.io
+REDIS_PORT=33546
+REDIS_PASSWORD=463933d1c71344388c268dce316ede16
 
 ########################################################
 
@@ -52,6 +52,8 @@ echo "Successfully updated config.json with Redis DB credentials"
 bin/control.sh setup
 
 bin/control.sh start
+
+sleep 10
 
 bin/control.sh status
 
