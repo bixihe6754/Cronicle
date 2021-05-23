@@ -4,9 +4,9 @@
 
 rm -f *.md && rm -f *.json && rm -rf bin && rm -rf htdocs && rm -rf lib && rm -rf sample_conf && rm -rf node_modules && rm -rf conf && rm -rf logs && rm -rf queue
 
-REDIS_HOST=us1-fun-dodo-33546.upstash.io
-REDIS_PORT=33546
-REDIS_PASSWORD=463933d1c71344388c268dce316ede16
+REDIS_HOST=us1-internal-dragon-33638.upstash.io
+REDIS_PORT=33638
+REDIS_PASSWORD=04d80765e8af4e69a21dc97f8f969db7
 
 ########################################################
 
